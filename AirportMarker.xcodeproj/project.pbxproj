@@ -10,6 +10,8 @@
 		6CF85873356E1E0C2A90EE9D /* Pods_AirportMarker_AirportMarkerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553BBFD4DFD48CFA262C7A3E /* Pods_AirportMarker_AirportMarkerUITests.framework */; };
 		8E18E6C47EB36BABE6A43358 /* Pods_AirportMarkerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4ED7DD51D574889EF5A3AC /* Pods_AirportMarkerTests.framework */; };
 		BC1E1D30377B097D0446BED3 /* Pods_AirportMarker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C34B5D5125C8FCAB734804 /* Pods_AirportMarker.framework */; };
+		E2296E952A48AA1900AB02E9 /* SearchCityViewPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2296E942A48AA1900AB02E9 /* SearchCityViewPresentable.swift */; };
+		E2296E972A48AB2700AB02E9 /* SearchCityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2296E962A48AB2700AB02E9 /* SearchCityViewModel.swift */; };
 		E2B883602A409023008B1BCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B8835F2A409023008B1BCA /* AppDelegate.swift */; };
 		E2B883622A409023008B1BCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B883612A409023008B1BCA /* SceneDelegate.swift */; };
 		E2B883642A409023008B1BCA /* SearchCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B883632A409023008B1BCA /* SearchCityViewController.swift */; };
@@ -49,6 +51,8 @@
 		94C34B5D5125C8FCAB734804 /* Pods_AirportMarker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirportMarker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C893AB364918CC0A0D64F575 /* Pods-AirportMarker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportMarker.debug.xcconfig"; path = "Target Support Files/Pods-AirportMarker/Pods-AirportMarker.debug.xcconfig"; sourceTree = "<group>"; };
 		D292051A68DAA44C0CEB0A52 /* Pods-AirportMarker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportMarker.release.xcconfig"; path = "Target Support Files/Pods-AirportMarker/Pods-AirportMarker.release.xcconfig"; sourceTree = "<group>"; };
+		E2296E942A48AA1900AB02E9 /* SearchCityViewPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCityViewPresentable.swift; sourceTree = "<group>"; };
+		E2296E962A48AB2700AB02E9 /* SearchCityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCityViewModel.swift; sourceTree = "<group>"; };
 		E2B8835C2A409023008B1BCA /* AirportMarker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportMarker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B8835F2A409023008B1BCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2B883612A409023008B1BCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -183,6 +187,7 @@
 		E2B883932A409D88008B1BCA /* viewModel */ = {
 			isa = PBXGroup;
 			children = (
+				E2296E962A48AB2700AB02E9 /* SearchCityViewModel.swift */,
 			);
 			path = viewModel;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 		E2B883992A409E34008B1BCA /* protocol */ = {
 			isa = PBXGroup;
 			children = (
+				E2296E942A48AA1900AB02E9 /* SearchCityViewPresentable.swift */,
 			);
 			path = protocol;
 			sourceTree = "<group>";
@@ -474,9 +480,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2B883642A409023008B1BCA /* SearchCityViewController.swift in Sources */,
+				E2296E972A48AB2700AB02E9 /* SearchCityViewModel.swift in Sources */,
 				E2B8836A2A409023008B1BCA /* AirportMarker.xcdatamodeld in Sources */,
 				E2B883602A409023008B1BCA /* AppDelegate.swift in Sources */,
 				E2B883622A409023008B1BCA /* SceneDelegate.swift in Sources */,
+				E2296E952A48AA1900AB02E9 /* SearchCityViewPresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
