@@ -12,7 +12,7 @@
 		BC1E1D30377B097D0446BED3 /* Pods_AirportMarker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C34B5D5125C8FCAB734804 /* Pods_AirportMarker.framework */; };
 		E2B883602A409023008B1BCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B8835F2A409023008B1BCA /* AppDelegate.swift */; };
 		E2B883622A409023008B1BCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B883612A409023008B1BCA /* SceneDelegate.swift */; };
-		E2B883642A409023008B1BCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B883632A409023008B1BCA /* ViewController.swift */; };
+		E2B883642A409023008B1BCA /* SearchCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B883632A409023008B1BCA /* SearchCityViewController.swift */; };
 		E2B883672A409023008B1BCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B883652A409023008B1BCA /* Main.storyboard */; };
 		E2B8836A2A409023008B1BCA /* AirportMarker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2B883682A409023008B1BCA /* AirportMarker.xcdatamodeld */; };
 		E2B8836C2A409026008B1BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B8836B2A409026008B1BCA /* Assets.xcassets */; };
@@ -52,7 +52,7 @@
 		E2B8835C2A409023008B1BCA /* AirportMarker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportMarker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B8835F2A409023008B1BCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2B883612A409023008B1BCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E2B883632A409023008B1BCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2B883632A409023008B1BCA /* SearchCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCityViewController.swift; sourceTree = "<group>"; };
 		E2B883662A409023008B1BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2B883692A409023008B1BCA /* AirportMarker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AirportMarker.xcdatamodel; sourceTree = "<group>"; };
 		E2B8836B2A409026008B1BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -208,7 +208,7 @@
 		E2B883962A409DD8008B1BCA /* viewController */ = {
 			isa = PBXGroup;
 			children = (
-				E2B883632A409023008B1BCA /* ViewController.swift */,
+				E2B883632A409023008B1BCA /* SearchCityViewController.swift */,
 			);
 			path = viewController;
 			sourceTree = "<group>";
@@ -473,7 +473,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2B883642A409023008B1BCA /* ViewController.swift in Sources */,
+				E2B883642A409023008B1BCA /* SearchCityViewController.swift in Sources */,
 				E2B8836A2A409023008B1BCA /* AirportMarker.xcdatamodeld in Sources */,
 				E2B883602A409023008B1BCA /* AppDelegate.swift in Sources */,
 				E2B883622A409023008B1BCA /* SceneDelegate.swift in Sources */,

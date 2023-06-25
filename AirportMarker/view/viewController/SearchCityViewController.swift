@@ -7,8 +7,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SearchCityViewController: UIViewController {
 
+    //outlets
+    
+    @IBOutlet weak var roundeView: UIView!
+    
+    @IBOutlet weak var citySearch_TF: UITextField!
+    
+    @IBOutlet weak var CityTable: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
