@@ -10,8 +10,8 @@ import RxCocoa
 protocol SearchCityViewPresentable{
     
     typealias Input = (searchText: Driver<String>, ())
-    
     typealias Output = ()
+    typealias ViewModelBuldier = (SearchCityViewPresentable.Input) -> SearchCityViewPresentable
     
     var input : SearchCityViewPresentable.Input {get}
     

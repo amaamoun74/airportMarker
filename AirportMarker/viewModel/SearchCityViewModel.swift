@@ -25,4 +25,5 @@ class SearchCityViewModel : SearchCityViewPresentable {
 private extension SearchCityViewModel {
     static func getOutput(input: SearchCityViewPresentable.Input) -> SearchCityViewPresentable.Output {
         return ()
+    }
 }

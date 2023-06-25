@@ -12,6 +12,11 @@
 		BC1E1D30377B097D0446BED3 /* Pods_AirportMarker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C34B5D5125C8FCAB734804 /* Pods_AirportMarker.framework */; };
 		E2296E952A48AA1900AB02E9 /* SearchCityViewPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2296E942A48AA1900AB02E9 /* SearchCityViewPresentable.swift */; };
 		E2296E972A48AB2700AB02E9 /* SearchCityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2296E962A48AB2700AB02E9 /* SearchCityViewModel.swift */; };
+		E2296E9A2A48ED9D00AB02E9 /* SearchCityCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2296E992A48ED9D00AB02E9 /* SearchCityCoordinator.swift */; };
+		E2296E9C2A48EDA900AB02E9 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2296E9B2A48EDA900AB02E9 /* Coordinator.swift */; };
+		E2296E9E2A48F0E500AB02E9 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2296E9D2A48F0E500AB02E9 /* BaseCoordinator.swift */; };
+		E2296EA12A48F4A200AB02E9 /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2296EA02A48F4A200AB02E9 /* Storyboardable.swift */; };
+		E2296EA32A48FEEE00AB02E9 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2296EA22A48FEEE00AB02E9 /* AppCoordinator.swift */; };
 		E2B883602A409023008B1BCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B8835F2A409023008B1BCA /* AppDelegate.swift */; };
 		E2B883622A409023008B1BCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B883612A409023008B1BCA /* SceneDelegate.swift */; };
 		E2B883642A409023008B1BCA /* SearchCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B883632A409023008B1BCA /* SearchCityViewController.swift */; };
@@ -53,6 +58,11 @@
 		D292051A68DAA44C0CEB0A52 /* Pods-AirportMarker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportMarker.release.xcconfig"; path = "Target Support Files/Pods-AirportMarker/Pods-AirportMarker.release.xcconfig"; sourceTree = "<group>"; };
 		E2296E942A48AA1900AB02E9 /* SearchCityViewPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCityViewPresentable.swift; sourceTree = "<group>"; };
 		E2296E962A48AB2700AB02E9 /* SearchCityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCityViewModel.swift; sourceTree = "<group>"; };
+		E2296E992A48ED9D00AB02E9 /* SearchCityCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCityCoordinator.swift; sourceTree = "<group>"; };
+		E2296E9B2A48EDA900AB02E9 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		E2296E9D2A48F0E500AB02E9 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		E2296EA02A48F4A200AB02E9 /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
+		E2296EA22A48FEEE00AB02E9 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		E2B8835C2A409023008B1BCA /* AirportMarker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportMarker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B8835F2A409023008B1BCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2B883612A409023008B1BCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +130,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E2296E982A48ED8500AB02E9 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				E2296E992A48ED9D00AB02E9 /* SearchCityCoordinator.swift */,
+				E2296E9D2A48F0E500AB02E9 /* BaseCoordinator.swift */,
+				E2296EA22A48FEEE00AB02E9 /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		E2296E9F2A48F47900AB02E9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		E2B883532A409022008B1BCA = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +172,8 @@
 		E2B8835E2A409023008B1BCA /* AirportMarker */ = {
 			isa = PBXGroup;
 			children = (
+				E2296E9F2A48F47900AB02E9 /* Shared */,
+				E2296E982A48ED8500AB02E9 /* Coordinator */,
 				E2B883992A409E34008B1BCA /* protocol */,
 				E2B883952A409DA1008B1BCA /* util */,
 				E2B883942A409D90008B1BCA /* services */,
@@ -235,7 +264,9 @@
 		E2B883992A409E34008B1BCA /* protocol */ = {
 			isa = PBXGroup;
 			children = (
+				E2296EA02A48F4A200AB02E9 /* Storyboardable.swift */,
 				E2296E942A48AA1900AB02E9 /* SearchCityViewPresentable.swift */,
+				E2296E9B2A48EDA900AB02E9 /* Coordinator.swift */,
 			);
 			path = protocol;
 			sourceTree = "<group>";
@@ -479,11 +510,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2296EA32A48FEEE00AB02E9 /* AppCoordinator.swift in Sources */,
+				E2296E9C2A48EDA900AB02E9 /* Coordinator.swift in Sources */,
+				E2296E9E2A48F0E500AB02E9 /* BaseCoordinator.swift in Sources */,
+				E2296E9A2A48ED9D00AB02E9 /* SearchCityCoordinator.swift in Sources */,
 				E2B883642A409023008B1BCA /* SearchCityViewController.swift in Sources */,
 				E2296E972A48AB2700AB02E9 /* SearchCityViewModel.swift in Sources */,
 				E2B8836A2A409023008B1BCA /* AirportMarker.xcdatamodeld in Sources */,
 				E2B883602A409023008B1BCA /* AppDelegate.swift in Sources */,
 				E2B883622A409023008B1BCA /* SceneDelegate.swift in Sources */,
+				E2296EA12A48F4A200AB02E9 /* Storyboardable.swift in Sources */,
 				E2296E952A48AA1900AB02E9 /* SearchCityViewPresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
