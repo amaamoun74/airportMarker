@@ -25,6 +25,7 @@ class SearchCityViewController: UIViewController, Storyboardable {
         viewModel = viewModelBuilder((
             searchText: citySearch_TF.rx.text.orEmpty.asDriver(),()
         ))
+        self.title = "Airports"
     }
 }
 
