@@ -17,6 +17,7 @@
 		E2296E9E2A48F0E500AB02E9 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2296E9D2A48F0E500AB02E9 /* BaseCoordinator.swift */; };
 		E2296EA12A48F4A200AB02E9 /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2296EA02A48F4A200AB02E9 /* Storyboardable.swift */; };
 		E2296EA32A48FEEE00AB02E9 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2296EA22A48FEEE00AB02E9 /* AppCoordinator.swift */; };
+		E24418412A4B473200731741 /* HttpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24418402A4B473200731741 /* HttpRouter.swift */; };
 		E2B883602A409023008B1BCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B8835F2A409023008B1BCA /* AppDelegate.swift */; };
 		E2B883622A409023008B1BCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B883612A409023008B1BCA /* SceneDelegate.swift */; };
 		E2B883642A409023008B1BCA /* SearchCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B883632A409023008B1BCA /* SearchCityViewController.swift */; };
@@ -63,6 +64,7 @@
 		E2296E9D2A48F0E500AB02E9 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		E2296EA02A48F4A200AB02E9 /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
 		E2296EA22A48FEEE00AB02E9 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		E24418402A4B473200731741 /* HttpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRouter.swift; sourceTree = "<group>"; };
 		E2B8835C2A409023008B1BCA /* AirportMarker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportMarker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B8835F2A409023008B1BCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2B883612A409023008B1BCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 		E2B883972A409DF0008B1BCA /* networking */ = {
 			isa = PBXGroup;
 			children = (
+				E24418402A4B473200731741 /* HttpRouter.swift */,
 			);
 			path = networking;
 			sourceTree = "<group>";
@@ -518,6 +521,7 @@
 				E2296E972A48AB2700AB02E9 /* SearchCityViewModel.swift in Sources */,
 				E2B8836A2A409023008B1BCA /* AirportMarker.xcdatamodeld in Sources */,
 				E2B883602A409023008B1BCA /* AppDelegate.swift in Sources */,
+				E24418412A4B473200731741 /* HttpRouter.swift in Sources */,
 				E2B883622A409023008B1BCA /* SceneDelegate.swift in Sources */,
 				E2296EA12A48F4A200AB02E9 /* Storyboardable.swift in Sources */,
 				E2296E952A48AA1900AB02E9 /* SearchCityViewPresentable.swift in Sources */,
