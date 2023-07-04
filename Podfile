@@ -12,6 +12,8 @@ source 'https://github.com/CocoaPods/Specs.git'
   pod 'RxSwift', '~> 6.5'
   pod 'RxCocoa', '~> 6.5'
   pod 'RxDataSources', '~> 5.0'
+  pod 'Alamofire', '~> 5.6'
+
 
   target 'AirportMarkerTests' do
     inherit! :search_paths
